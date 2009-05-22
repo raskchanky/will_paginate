@@ -32,7 +32,8 @@ module WillPaginate
       :params         => nil,
       :renderer       => 'WillPaginate::LinkRenderer',
       :page_links     => true,
-      :container      => true
+      :container      => true,
+      :id_array       => nil
     }
     mattr_reader :pagination_options
 
